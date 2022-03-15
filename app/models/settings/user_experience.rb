@@ -8,7 +8,7 @@ module Settings
     FEED_STYLES = %w[basic rich compact].freeze
 
     # The default font for all users that have not chosen a custom font yet
-    setting :default_font, type: :string, default: "sans_serif"
+    setting :default_font, type: :string, default: "lexend"
     setting :feed_strategy, type: :string, default: "basic", validates: {
       inclusion: { in: FEED_STRATEGIES }
     }

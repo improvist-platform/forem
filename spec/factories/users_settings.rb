@@ -1,6 +1,6 @@
 FactoryBot.define do
   factory :users_setting, class: "Users::Setting" do
-    config_font { "sans_serif" }
+    config_font { "lexend" }
     config_navbar { "default" }
     config_theme { "dark_theme" }
     display_announcements { true }

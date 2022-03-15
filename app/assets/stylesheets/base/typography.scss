@@ -41,6 +41,21 @@
   font-style: italic;
 }
 
+@font-face {
+  font-family: Lexend;
+  font-style: normal;
+  font-weight: 400;
+  src: local(''), font-url('lexend-v14-latin-regular.woff2') format('woff2'),
+    font-url('lexend-v14-latin-regular.woff') format('woff');
+}
+@font-face {
+  font-family: Lexend;
+  font-style: normal;
+  font-weight: 700;
+  src: local(''), font-url('lexend-v14-latin-700.woff2') format('woff2'),
+    font-url('lexend-v14-latin-700.woff') format('woff');
+}
+
 // Content fonts
 body {
   -webkit-font-smoothing: antialiased;
@@ -64,6 +79,10 @@ body {
 
   &.open-dyslexic-article-body {
     --content-font-family: var(--ff-dyslexic);
+  }
+
+  &.lexend-article-body {
+    --content-font-family: var(--ff-lexend);
   }
 }
 

@@ -12,10 +12,19 @@
 
       if (bodyClass.includes('open-dyslexic-article-body')) { // Preloading custom font for anticipated use
         const link = document.createElement('link');
-        link.as = 'font'
-        link.rel = 'preload'
-        crossorigin = 'anonymous'
+        link.as = 'font';
+        link.rel = 'preload';
+        link.crossorigin = 'anonymous';
         link.href = '<%= asset_path "OpenDyslexic-Regular.otf" %>';
+        document.head.appendChild(link);
+      }
+
+      if (bodyClass.includes('lexend-article-body')) { // Preloading custom font for anticipated use
+        const link = document.createElement('link');
+        link.as = 'font';
+        link.rel = 'preload';
+        link.crossorigin = 'anonymous';
+        link.href = '<%= asset_path "lexend-v14-latin-regular.woff2" %>';
         document.head.appendChild(link);
       }
     }
