@@ -3,10 +3,10 @@ en:
   views:
     editor:
       meta:
-        title: Edit Post
+        title: Edit Venture
       heading:
-        new: New Post
-      create: Create Post
+        new: New Venture
+      create: New Venture
       close:
         icon: Close
         title: Close the editor

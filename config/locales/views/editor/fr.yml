@@ -3,10 +3,10 @@ fr:
   views:
     editor:
       meta:
-        title: Éditer la publication
+        title: Éditer l'initiative
       heading:
-        new: Nouvelle publication
-      create: Créer une publication
+        new: Nouvelle initiative
+      create: Nouvelle initiative
       close:
         icon: Fermer
         title: Fermer l'éditeur

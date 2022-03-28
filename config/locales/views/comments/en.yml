@@ -82,7 +82,7 @@ en:
           other: "%{count} errors prohibited this comment from being saved:"
         field:
           aria_label: Add a comment to the discussion
-          placeholder: Add to the discussion
+          placeholder: Contribute with your thoughts
           submit: Upload
           templates: Templates
           upload: Upload image

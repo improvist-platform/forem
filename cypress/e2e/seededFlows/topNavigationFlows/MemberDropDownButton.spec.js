@@ -21,7 +21,7 @@ describe('Member Menu Dropdown', () => {
       }).should('have.focus');
 
       cy.findByRole('link', { name: 'Dashboard' });
-      cy.findByRole('link', { name: 'Create Post' });
+      cy.findByRole('link', { name: 'New Venture' });
       cy.findByRole('link', { name: 'Reading list' });
       cy.findByRole('link', { name: 'Settings' });
       cy.findByRole('link', { name: 'Sign Out' });

@@ -71,5 +71,5 @@ fr:
           text_html: Made with love and %{rails}. %{community} <span title="copyright">&copy;</span> %{copyright}.
           rails: Ruby on Rails
       home: Page D'Accueil
-      create_post: Créer une publication
+      create_post: Nouvelle initiative
       signout: Se déconnecter
