@@ -1,0 +1,14 @@
+<button
+  id="reaction-butt-<%= category %>"
+  aria-label="<%= aria_label %>"
+  aria-pressed="false"
+  class="crayons-reaction crayons-reaction--<%= category %>"
+  data-category="<%= category %>"
+  title="<%= description %>">
+  <span class="crayons-reaction__icon crayons-reaction__icon--inactive">
+    <%= crayons_icon_tag(image_path, aria_hidden: true) %>
+  </span>
+  <span class="crayons-reaction__count" id="reaction-number-<%= category %>">
+    <%= t("views.reactions.soon") %>
+  </span>
+</button>

@@ -2,9 +2,13 @@
 
 // Set reaction count to correct number
 function setReactionCount(reactionName, newCount) {
-  var reactionClassList = document.getElementById(
+  const reactionButton = document.getElementById(
     'reaction-butt-' + reactionName,
-  ).classList;
+  );
+  if (!reactionButton) {
+    return;
+  }
+  var reactionClassList = reactionButton.classList;
   var reactionNumber = document.getElementById(
     'reaction-number-' + reactionName,
   );
@@ -62,6 +66,22 @@ function reactToArticle(articleId, reaction) {
   }
   var userStatus = document.body.getAttribute('data-user-status');
   sendHapticMessage('medium');
+  if (reaction === 'contribute') {
+    window.Forem.showModal({
+      title: 'Coming soon: Contributions',
+      contentSelector: '#global-contribute-modal',
+      overlay: true,
+    });
+    return;
+  }
+  if (reaction === 'funding') {
+    window.Forem.showModal({
+      title: 'Coming soon: Funding',
+      contentSelector: '#global-funding-modal',
+      overlay: true,
+    });
+    return;
+  }
   if (userStatus === 'logged-out') {
     showLoginModal();
     return;

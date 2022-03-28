@@ -2,6 +2,7 @@
 en:
   views:
     reactions:
+      soon: Soon
       category:
         hands: Hands
         like: Like
@@ -29,3 +30,9 @@ en:
         aria_label: Add to reading list
         icon: Save button
         text: Save
+      contribute:
+        title: Contribute
+        aria_label: Get in touch to contribute
+      funding:
+        title: Fund this venture
+        aria_label: Financially support this venture

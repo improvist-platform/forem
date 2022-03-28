@@ -127,7 +127,9 @@
 .reaction-icon--like {
   color: var(--reaction-like-color);
 }
-.reaction-icon--unicorn {
+.reaction-icon--unicorn,
+.reaction-icon--contribute,
+.reaction-icon--funding {
   color: var(--reaction-custom-color);
 }
 .reaction-icon--readinglist {

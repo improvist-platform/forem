@@ -22,6 +22,10 @@ fr:
         login:
           aria_label: Log in
           text: Se connecter
+        contribute:
+          text: "Nous vous donnerons bientôt l'occasion de contribuer à cette initiative à cet endroit. En attendant, veuillez contacter l'auteur directement pour contribuer à son initiative."
+        funding:
+          text: "Nous vous donnerons bientôt la possibilité de soutenir financièrement cette initiative à cet endroit. En attendant, veuillez contacter directement l'auteur pour soutenir son initiative."
       nav:
         admin: Admin
         dashboard: Tableau de bord

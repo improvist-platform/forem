@@ -216,7 +216,9 @@
     }
   }
 
-  &--unicorn {
+  &--unicorn,
+  &--contribute,
+  &--funding {
     &:hover,
     &.user-activated {
       --reaction-color: var(--reaction-custom-color);

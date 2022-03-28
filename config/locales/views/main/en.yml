@@ -22,6 +22,10 @@ en:
         login:
           aria_label: Log in
           text: Log in
+        contribute:
+          text: "We will soon give you the opportunity to contribute in this venture at this place. In the meantime please contact the author directly to contribute in their venture."
+        funding:
+          text: "We will soon give you the opportunity to financially support this venture at this place. In the meantime please contact the author directly to support their venture."
       nav:
         admin: Admin
         dashboard: Dashboard
