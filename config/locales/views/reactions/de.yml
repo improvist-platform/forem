@@ -1,0 +1,38 @@
+---
+de:
+  views:
+    reactions:
+      soon: Bald
+      category:
+        hands: Hands
+        like: Like
+        readinglist: Merkliste
+        thinking: Thinking
+        thumbsup: Thumbs up
+        thumbsdown: Thumbs down
+        unicorn: Unicorn
+        vomit: Flag
+      summary:
+        count_html:
+          one: "%{count}%{start}\_Reaktion%{end}"
+          other: "%{count}%{start}\_Reaktionen%{end}"
+        title: Reaktionen
+      like:
+        title: Finde ich toll
+        aria_label: Finde ich toll
+        icon: Favorite heart button
+        text: Like
+      unicorn:
+        title: Unicorn
+        aria_label: React with unicorn
+      readingList:
+        title: Merken
+        aria_label: Zur Merkliste hinzufügen
+        icon: Save button
+        text: Merken
+      contribute:
+        title: Mithelfen
+        aria_label: An diesem Vorhaben mithelfen
+      funding:
+        title: Finanzieren
+        aria_label: Dieses Vorhaben finanziell unterstützen
