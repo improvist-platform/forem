@@ -76,6 +76,8 @@
 .c-link--icon-left {
   .c-link__icon {
     margin-right: var(--su-1);
+    opacity: 0.7;
+    transform: scale(0.85);
   }
 
   &.c-link--block {
